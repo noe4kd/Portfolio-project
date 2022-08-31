@@ -1,8 +1,10 @@
 h1 {
   color: blue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 98px;
 }
 
 h2 {
-  color: red;
-  background: blue;
+  color: brown;
+  font-size: 75px;
 }
