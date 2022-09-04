@@ -1,10 +1,27 @@
-h1 {
-  color: blue;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 98px;
+:root {
+  --primary-color: #1c8da3;
+  --secondary-color: #f7f4e7;
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  --bs-border-radius: 10px;
 }
 
-h2 {
-  color: brown;
-  font-size: 75px;
+body {
+  margin: 100px 0;
+  background: var(--secondary-color);
+}
+
+h1 {
+  font-size: 46px;
+  color: var(--primary-color);
+}
+
+.navbar-nav {
+  font-size: 20px;
+
+}
+
+@media(max-width: 576px) {
+  h1 {
+    text-align: center;
+  }
 }
