@@ -15,9 +15,18 @@ h1 {
   color: var(--primary-color);
 }
 
-.navbar-nav {
-  font-size: 20px;
+nav {
+  background: linear-gradient(178deg, rgba(228, 246, 255, 0.51) 14.9%, rgb(163, 200, 216) 80%);
+  font-weight: 600;
+}
 
+.navbar-nav {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.nav-item {
+  padding-left: 30px;
 }
 
 @media(max-width: 576px) {
