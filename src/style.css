@@ -23,13 +23,14 @@ nav {
 .navbar-nav {
   font-size: 18px;
   padding-top: 20px;
+  padding-right: 8px;
 }
 
 .nav-item {
   padding-left: 30px;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 600px) {
   h1 {
     text-align: center;
   }
