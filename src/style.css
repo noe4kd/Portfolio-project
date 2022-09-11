@@ -142,6 +142,7 @@ nav {
   max-width: 80%;
   box-shadow: var(--box-shadow);
   margin-top: 100px;
+  padding: 0 25px;
 }
 
 .footer {
@@ -152,6 +153,14 @@ nav {
   font-size: 16px;
   padding: 0 20px;
   color: var(--primary-color);
+}
+
+.container {
+  padding-top: 150px;
+}
+
+.culture img {
+  padding-right: 55px;
 }
 
 @media(max-width: 600px) {
