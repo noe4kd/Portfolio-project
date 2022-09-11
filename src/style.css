@@ -163,7 +163,7 @@ nav {
   padding-right: 55px;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 576px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -174,8 +174,22 @@ nav {
     text-align: center;
   }
 
+  .cultural-text {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .weather-text {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
   p {
     font-size: 20px;
+  }
+
+  .navbar-brand {
+    width: 250px
   }
 
   .project-link {
