@@ -27,14 +27,44 @@ p {
   padding-right: 30px;
 }
 
-.logo {
+
+nav {
+  padding: 40px 18px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 25px;
+  color: var(--primary-color);
+}
+
+nav li.active {
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  size: 25px;
+}
+
+.just-logo {
   margin-top: 70px;
   margin-left: 120px;
 }
 
 .logo-navbar {
-  max-width: 150px;
-  justify-content: flex-start;
+  max-height: 40px;
+  padding-left: 20px;
 }
 
 .primary-link {
@@ -105,9 +135,10 @@ footer .social-media:hover {
   }
 
   .logo-navbar {
-    max-width: 100px;
+    max-height: 40px;
     padding: 5px 0 0 0;
   }
+
 
   .container {
     padding-top: 150px;
