@@ -1,5 +1,6 @@
 :root {
   --primary-color: #1c8da3;
+  --primary-h1-color: #EF641A;
   --secondary-color: #f7f4e7;
   --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   --bs-border-radius: 10px;
@@ -13,6 +14,7 @@ h1 {
   font-size: 64px !important;
   font-family: 'Poppins', sans-serif !important;
   padding-bottom: 10px;
+  color: var(--primary-h1-color);
 }
 
 p {
@@ -41,11 +43,12 @@ nav li {
   display: inline;
   list-style: none;
   margin-left: 25px;
-  color: var(--primary-color);
+  font-size: 22px;
+  color: #EF641A !important;
 }
 
-nav li.active {
-  color: black;
+nav li.active a {
+  color: #0c3d47 !important;
 }
 
 nav a {
@@ -54,7 +57,8 @@ nav a {
 }
 
 nav a:hover {
-  size: 25px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .just-logo {
@@ -121,6 +125,7 @@ footer .social-media:hover {
   h1 {
     font-size: 55px;
     padding-left: 20px;
+    color: var(--primary-color);
   }
 
   h2,
@@ -134,11 +139,14 @@ footer .social-media:hover {
     line-height: 1.5;
   }
 
+  nav li {
+    font-size: 18px;
+  }
+
   .logo-navbar {
     max-height: 40px;
     padding: 5px 0 0 0;
   }
-
 
   .container {
     padding-top: 150px;
