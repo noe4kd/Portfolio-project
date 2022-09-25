@@ -19,14 +19,14 @@
 <body>
   <nav class="d-flex justify-content-between">
     <a href="/">
-      <img src="/images/logo.png" class="logo-navbar d-none d-md-block" alt="" />
-      <img src="images/justlogo.png" class="logo-navbar d-block d-md-none" atl="" />
+      <img src="/images/logo.png" class="logo-navbar d-none d-md-block" alt="My logo" title="Noelia4kd logo" />
+      <img src="images/justlogo.png" class="logo-navbar d-block d-md-none" atl="My logo" title="Noelia4kd logo" />
     </a>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li class="active"><a href="/services.html">Work</a></li>
-      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/" title="Homepage">Home</a></li>
+      <li><a href="/about.html" title="Know more about me">About</a></li>
+      <li class="active"><a href="/services.html" title="Check out my work">Work</a></li>
+      <li><a href="/contact.html" title="Contact me">Contact</a></li>
     </ul>
   </nav>
 
@@ -69,18 +69,21 @@
     </div>
   </div>
 
-  <footer class="container-footer">
-    <div class="footer  d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.2);">
-      <div>
-        <img src="/images/logo.png" alt="Logo Noelia4kd" title="Noelia4kd" class="logo-navbar mb-2" />
-      </div>
+  <footer class="container-footer mt-2 mb-3">
+    <div class="footer d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.2);">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo Noelia4kd" title="Click here to know more!" class="logo-navbar mb-1" />
+      </a>
       <spann class="coded-by mt-1 d-none d-sm-block">©2022 Coded by Noelia4kd,
-        <a class="text-dark text-muted" href="https://github.com/noe4kd/Portfolio-project">Open-source code</a>
+        <a class="text-dark text-muted" href="https://github.com/noe4kd/Portfolio-project"
+          title="Check out my GitHub">Open-source code</a>
       </spann>
       <div class="icons p-0 mt-1 text-end">
-        <a href="" class="social-media"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="" class="social-media"><i class="fa-brands fa-github"></i></a>
-        <a href="" class="social-media"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/noelia4kd/?originalSubdomain=no" class="social-media"
+          title="My LinkedIn account"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/noe4kd" class="social-media" title="My GitHub account"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-media" title="Not working yet"><i class="fa-brands fa-facebook"></i></a>
       </div>
     </div>
   </footer>

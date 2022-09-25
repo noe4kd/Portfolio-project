@@ -44,16 +44,17 @@ nav li {
   list-style: none;
   margin-left: 25px;
   font-size: 22px;
-  color: #EF641A !important;
 }
 
 nav li.active a {
-  color: #0c3d47 !important;
+  color: var(--primary-color) !important;
+  font-weight: 600;
 }
 
 nav a {
   text-decoration: none;
   transition: all 150ms ease-in-out;
+  color: #EF641A !important
 }
 
 nav a:hover {
@@ -61,14 +62,14 @@ nav a:hover {
   background: var(--secondary-color);
 }
 
-.just-logo {
+.logo-img-fluid {
   margin-top: 70px;
   margin-left: 120px;
 }
 
 .logo-navbar {
   max-height: 40px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .primary-link {
@@ -110,7 +111,8 @@ footer .social-media:hover {
 }
 
 .container {
-  padding-top: 150px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 .culture img {
@@ -123,7 +125,7 @@ footer .social-media:hover {
 
 @media(max-width: 700px) {
   h1 {
-    font-size: 55px;
+    font-size: 45px !important;
     padding-left: 20px;
     color: var(--primary-color);
   }
@@ -144,13 +146,8 @@ footer .social-media:hover {
   }
 
   .logo-navbar {
-    max-height: 40px;
+    max-height: 30px;
     padding: 5px 0 0 0;
-  }
-
-  .container {
-    padding-top: 150px;
-    padding-bottom: 40px;
   }
 
   .container-footer {
@@ -172,5 +169,6 @@ footer .social-media:hover {
 
   footer .social-media {
     padding: 0 5px;
+    line-height: 2.2;
   }
 }
