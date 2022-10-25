@@ -110,6 +110,14 @@ footer .social-media:hover {
   background-color: var(--primary-color);
 }
 
+footer .icons {
+  margin-top: 10px;
+}
+
+footer .coded-by {
+  margin-top: 10px;
+}
+
 .container {
   padding-top: 80px;
   padding-bottom: 30px;
