@@ -169,7 +169,6 @@ footer .coded-by {
     color: var(--primary-color);
   }
 
-
   nav li {
     display: inline;
     list-style: none;
@@ -186,6 +185,10 @@ footer .coded-by {
   .logo-navbar {
     max-height: 40px;
     padding: 5px 0px 0 10px;
+  }
+
+  .home-contact-ca {
+    padding-left: 20px;
   }
 
   .primary-link {
