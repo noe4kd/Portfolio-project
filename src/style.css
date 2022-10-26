@@ -2,33 +2,13 @@
   --primary-color: #1c8da3;
   --primary-h1-color: #EF641A;
   --secondary-color: #f7f4e7;
-  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   --bs-border-radius: 10px;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }
-
-h1 {
-  font-size: 64px !important;
-  font-family: 'Poppins', sans-serif !important;
-  padding-bottom: 10px;
-  color: var(--primary-h1-color);
-}
-
-p {
-  font-size: 22px;
-}
-
-.mt-5 {
-  font-size: 18px;
-}
-
-.hero {
-  padding-right: 30px;
-}
-
 
 nav {
   padding: 40px 18px;
@@ -42,7 +22,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  margin-left: 25px;
+  margin-left: 30px;
   font-size: 22px;
 }
 
@@ -59,12 +39,14 @@ nav a {
 
 nav a:hover {
   color: var(--primary-color);
-  background: var(--secondary-color);
+  background: none;
 }
 
 .logo-img-fluid {
-  margin-top: 70px;
-  margin-left: 120px;
+  position: relative;
+  margin-top: -280px;
+  margin-left: 70%;
+
 }
 
 .logo-navbar {
@@ -72,9 +54,32 @@ nav a:hover {
   padding-left: 30px;
 }
 
+h1 {
+  font-size: 64px !important;
+  font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 10px;
+  color: var(--primary-h1-color);
+}
+
+.text {
+  font-size: 25px;
+  padding-left: 5%;
+}
+
+.text-service {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.home-contact {
+  padding-left: 5%;
+  margin-top: 25px;
+}
+
 .primary-link {
+  font-size: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -83,22 +88,35 @@ nav a:hover {
 }
 
 .primary-link:hover {
-  color: white;
+  color: var(--primary-h1-color);
 }
 
 .img-fluid {
   max-width: 60%;
   box-shadow: var(--box-shadow);
   margin-top: 100px;
+  border-radius: 20px;
+}
+
+.wa {
+  margin-left: 5%
+}
+
+.footer-logo-navbar {
+  max-height: 20px;
+  padding-left: 30px;
+  margin-top: 5px;
 }
 
 footer {
-  margin-top: 35px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer .social-media {
-  font-size: 16px;
-  padding: 0 10px;
+  font-size: 18px;
+  padding: 0 5px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border-radius: 50%;
@@ -111,24 +129,17 @@ footer .social-media:hover {
 }
 
 footer .icons {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 footer .coded-by {
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
-.container {
-  padding-top: 80px;
-  padding-bottom: 30px;
-}
-
-.culture img {
-  padding-right: 55px;
-}
-
-.check-out {
-  padding-bottom: 25px;
+.argentina {
+  margin-bottom: 100px;
+  margin-left: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 @media(max-width: 700px) {
@@ -143,26 +154,47 @@ footer .coded-by {
     padding-left: 20px;
   }
 
-  p {
+  p,
+  .container-text {
     font-size: 20px;
     padding: 0 20px;
     line-height: 1.5;
   }
 
   nav li {
+    display: inline;
+    list-style: none;
+    margin-left: 16px;
+    margin-right: 10px;
     font-size: 18px;
   }
 
+  nav li.active a {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+  }
+
   .logo-navbar {
-    max-height: 30px;
-    padding: 5px 0 0 0;
+    max-height: 40px;
+    padding: 5px 0px 0 10px;
+  }
+
+  .primary-link {
+    border-radius: 6px;
+    margin-left: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+
+  .primary-link:hover {
+    color: var(--primary-h1-color);
   }
 
   .container-footer {
-    padding: 0 20px;
-  }
-
-  .mt-5 {
     padding: 0 20px;
   }
 
@@ -178,5 +210,11 @@ footer .coded-by {
   footer .social-media {
     padding: 0 5px;
     line-height: 2.2;
+  }
+
+  .footer-logo-navbar {
+    max-height: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
   }
 }
