@@ -45,8 +45,13 @@ nav a:hover {
 .logo-img-fluid {
   position: relative;
   margin-top: -280px;
-  margin-left: 70%;
+  margin-left: 73%;
+}
 
+.logoc-img-fluid {
+  position: relative;
+  margin-top: -320px;
+  margin-left: 60%;
 }
 
 .logo-navbar {
@@ -67,8 +72,9 @@ h1 {
 }
 
 .text-service {
-  font-size: 25px;
+  font-size: 22px;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .wa {
@@ -77,6 +83,12 @@ h1 {
 
 .home-contact {
   padding-left: 5%;
+  margin-top: 25px;
+}
+
+.home-contact-x,
+.x {
+  margin-left: 20px;
   margin-top: 25px;
 }
 
@@ -102,9 +114,10 @@ h1 {
 }
 
 .img-fluid {
-  max-width: 50%;
+  max-width: 40%;
   box-shadow: var(--box-shadow);
   margin-top: 80px;
+
   border-radius: 20px;
 }
 
